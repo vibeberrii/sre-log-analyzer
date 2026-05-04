@@ -1,0 +1,41 @@
+===== SRE Log Analyzer Report =====
+Analyzed file: logs\sample.log
+Total log lines: 14
+
+Severity:
+Score: 69
+Status: HIGH RISK
+
+Log level summary:
+INFO: 4
+WARNING: 3
+ERROR: 5
+CRITICAL: 2
+
+Top 5 repeated problems:
+- Failed to connect to payment service — 2 time(s)
+- Server crashed unexpectedly — 1 time(s)
+- Database timeout occurred — 1 time(s)
+- Connection refused by database server — 1 time(s)
+- Permission denied while reading config file — 1 time(s)
+
+Suspicious keyword detection:
+- failed: 2
+- crash: 1
+- crashed: 1
+- timeout: 1
+- refused: 1
+- unauthorized: 1
+- denied: 1
+- unavailable: 1
+
+Suggested checks:
+- FAILED detected 2 time(s): Check failed dependency, service status, or incorrect configuration.
+- CRASH detected 1 time(s): Check crash logs, memory usage, and recent code/config changes.
+- CRASHED detected 1 time(s): Check crash logs, memory usage, and recent code/config changes.
+- TIMEOUT detected 1 time(s): Check service response time, database latency, or network delay.
+- REFUSED detected 1 time(s): Check if the target service/port is running and reachable.
+- Most repeated problem: 'Failed to connect to payment service' occurred 2 time(s). Start debugging here first.
+
+Privacy note:
+This tool runs locally. Your log file is not uploaded anywhere, so sensitive logs stay on your machine.

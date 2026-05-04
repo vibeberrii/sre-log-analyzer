@@ -1,0 +1,14 @@
+2026-05-04 10:01:22 INFO Server started successfully
+2026-05-04 10:02:10 INFO Database connected
+2026-05-04 10:04:55 WARNING High memory usage detected
+2026-05-04 10:06:14 ERROR Failed to connect to payment service
+2026-05-04 10:07:33 INFO User login successful
+2026-05-04 10:08:49 ERROR Failed to connect to payment service
+2026-05-04 10:10:01 WARNING Slow API response detected
+2026-05-04 10:12:22 CRITICAL Server crashed unexpectedly
+2026-05-04 10:13:45 INFO Restarting server
+2026-05-04 10:15:09 ERROR Database timeout occurred
+2026-05-04 10:16:33 ERROR Connection refused by database server
+2026-05-04 10:18:01 WARNING Unauthorized access attempt detected
+2026-05-04 10:19:44 ERROR Permission denied while reading config file
+2026-05-04 10:21:15 CRITICAL Payment service unavailable
